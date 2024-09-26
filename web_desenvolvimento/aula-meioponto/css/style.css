@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    background-color: white;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+main{
+    border: solid 3px rgb(46, 46, 46);
+}
+
+h3{
+    font-size: 50px;
+}
+
+p{
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+section, footer{
+    padding: 54px 0;
+}
+
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul a{
+    color: rgb(255, 255, 255);
+    margin: 0 25px;
+    font-size: 20px;
+    display: inline;
+}
+
+nav ul a:hover:not(.botao)::after{
+    width: 100%;
+    transition: 0.2s;
+    margin: 0 auto;
+
+}
+
+.botao{
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.botao:hover{
+background-color: rgb(160, 2, 2);
+}
+
+.botaoAnimado{
+    animation:animate_outline 1s ease-out infinite;
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 0.5s;
+    
+}
+
+@keyframes animate_outline{
+    from{
+        outline: 0px solid rgb(185, 3, 3);
+    }
+    to{
+        outline: 15px solid rgb(241, 20, 20);
+    }
+}
+
+.capa{
+    display: flex;
+    justify-content: center;
+}
+
+.capaTexto{
+    margin: 50px;
+    text-align: center;
+    padding: 0 90px;
+
+}
+
+.capa .capaTexto h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+
+}
+
+.capa .capaTexto p{
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+    margin: 18px 0;
+
+}
+
+.praticar .base{
+    display: flex;
+    align-items: center;
+
+}
+
+.praticar .praticarTexto{
+    width: 50%;
+    padding: 0 40px;
+}
+
+.praticarTexto p{
+    margin: 20px 0;
+}
+
+.praticar .praticarImagem{
+    width: 50%;
+}
+
+.relatos h3{
+    text-align: center;
+}
+
+.relatos p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+.cartao{
+    display: flex;
+    justify-content: center;
+
+}
+
+.relatos .cartaoInfo{
+    background-color: rgb(248, 50, 50);
+    margin: 15px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+
+
+}
+
+.relatos .cartaoInfo img{
+    border-radius: 100%;
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+
+
+}
+
+.relatos .cartaoInfo .nomeRelato{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+
+}
+
+.relatos .cartaoInfo .relatos{
+    font-size: 15px;
+    padding: 0 15px;
+    
+}
+
+.relatos .cartaoInfo:hover{
+    background-color: rgb(179, 2, 2);
+    margin-top: 5px;
+    transition: 0.5s;
+
+}
+
+.cliente h3,
+.cliente p{
+      text-align: center;
+  }
+
+.cliente .base div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rodape{
+    background-image: url(/img/background-home.jpg);
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.redeSocial i{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+
+}
+
+.rodape p{
+    margin-top: 10px;
+    color: white;
+
+}
