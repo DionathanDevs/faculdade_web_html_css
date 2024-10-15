@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px; 
+    margin-bottom: 30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 5px;
+}
+
+.textHeader{
+    text-align: center;
+    align-items: center;
+
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    padding-top: 30px; 
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+}
+section img{
+    width: 200px;
+}
+
+.box_section{
+    align-items: center;
+    text-align: center;
+}
+.textSection{
+    display: block;
+    margin-bottom: 20px;
+    
+    
+}
+.cards{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.topo{
+    
+    display: flex;
+    
+}
+.logo{
+    
+    display: flex;
+    justify-content: start;
+}
+
+article{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+
+
+.box_article{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 20px 20px 20px 20px;
+
+}
+.imgArticle{
+    display: flex;
+    width: 200px;
+}
+
+
+.textArticle{
+    display: flex;
+    width: 100px;
+    margin-left: 200px;
+    margin-right: 150px;
+}
+
+.box_aside{
+    margin: 20px 20px 20px;
+    display: flex;
+    height: 200px;
+}
+
+.tabela{
+    margin: 50px 50px 50px 50px;
+}
+
+.formulario{
+    margin: 50px 50px 50px 50px;
+}
+
+aside{
+    background-color: white;
+}
+
+.aside2{
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.listaol{
+    display: flex;
+    width: 200px;
+    margin-left: 200px;
+
+    margin: 20px 20px 20px 20px;
+
+}
+
+.imgAside{
+
+    width: 200px;
+}
+
+.imgFooter{
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+    padding-top: 1px;
+    padding-bottom: 7px;
+    background-color: rgb(255, 255, 255);
+}
